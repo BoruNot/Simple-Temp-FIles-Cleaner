@@ -2,6 +2,7 @@
 cls
 
 echo Boru Cleaner 1.0.0
+ipconfig /flushdns
 
 del /f /q C:\Windows\Temp\*
 del /f /q C:\Users\%USERNAME%\AppData\Local\Temp\*
